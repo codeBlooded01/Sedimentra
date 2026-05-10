@@ -1,0 +1,52 @@
+{
+  "_comment": "FAPROTAX Pathway Function Bucket Definitions — Bangon River Coastal Sediment Study",
+  "_source": "FAPROTAX v1.2+ canonical function names (FAPROTAX.txt, app/assets/faprotax/)",
+  "_scope": "Biogeochemical pathways scoped to coastal sediment metagenomics: Methane, Sulfur, and Anoxic Support cycles",
+
+  "CH4_PRODUCTION": [
+    "methanogenesis",
+    "methanogenesis_by_CO2_reduction_with_H2",
+    "methanogenesis_using_formate",
+    "methanogenesis_by_disproportionation_of_methyl_groups",
+    "methanogenesis_by_reduction_of_methyl_compounds_with_H2",
+    "hydrogenotrophic_methanogenesis",
+    "acetoclastic_methanogenesis"
+  ],
+
+  "CH4_OXIDATION": [
+    "methanotrophy"
+  ],
+
+  "S_REDUCTION": [
+    "sulfate_respiration",
+    "thiosulfate_respiration",
+    "sulfur_respiration",
+    "sulfite_respiration"
+  ],
+
+  "S_OXIDATION": [
+    "dark_sulfide_oxidation",
+    "dark_sulfur_oxidation",
+    "dark_thiosulfate_oxidation",
+    "dark_oxidation_of_sulfur_compounds",
+    "anoxygenic_photoautotrophy_S_oxidizing"
+  ],
+
+  "ANOXIC_SUPPORT": [
+    "dark_hydrogen_oxidation",
+    "iron_respiration",
+    "fumarate_respiration"
+  ],
+
+  "AEROBIC_BASELINE": [
+    "aerobic_chemoheterotrophy"
+  ],
+
+  "CH4_SUPPORT": [
+    "reductive_acetogenesis"
+  ],
+
+  "FERMENTATION": [
+    "fermentation"
+  ]
+}
