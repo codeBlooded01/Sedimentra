@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@700&amp;display=swap');
+    </style>
+  </defs>
+  <circle cx="32" cy="32" r="32" fill="#6B4226"/>
+  <text
+    x="32"
+    y="46"
+    text-anchor="middle"
+    font-family="'Instrument Sans', Georgia, serif"
+    font-weight="700"
+    font-size="38"
+    fill="#F5EFE6"
+    letter-spacing="-1"
+  >S</text>
+</svg>

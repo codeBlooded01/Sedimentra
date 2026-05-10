@@ -1,0 +1,129 @@
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('/fonts/InstrumentSans.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: oblique 0deg 10deg;
+}
+
+@font-face {
+  font-family: 'Instrument Sans';
+  src: url('/fonts/InstrumentSans.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.landing-container {
+  min-height: 100vh;
+  width: 100%;
+  background-image: url('/bg_main.png');
+  background-size: cover;
+  background-position: center; /* Balanced view */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Instrument Sans', sans-serif;
+  overflow: hidden;
+}
+
+.landing-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+}
+
+.landing-logo {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: #000;
+  letter-spacing: -0.5px;
+}
+
+.landing-nav-links {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.landing-login {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+}
+
+.landing-login:hover {
+  opacity: 0.8;
+}
+
+.landing-signup {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #5D3E30;
+  background-color: #D9BCA6;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 9999px;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.landing-signup:hover {
+  background-color: #C8AA93;
+  transform: translateY(-1px);
+}
+
+.landing-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Switch to top-heavy alignment */
+  align-items: center;
+  text-align: center;
+  margin-top: 5vh; /* Reduced margin-top to bring content higher */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.landing-title {
+  font-size: 7vw;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 24px;
+  letter-spacing: -3px;
+  line-height: 1.1;
+
+  /* Text clip using specific sand text background */
+  background-image: url('/text_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  
+  /* Slight shadow trick to add contrast if needed */
+  filter: drop-shadow(0px 1px 2px rgba(0,0,0,0.1));
+}
+
+@media (min-width: 1200px) {
+  .landing-title {
+    font-size: 140px;
+  }
+}
+
+.landing-subtitle {
+  font-size: 1.15rem;
+  line-height: 1.5;
+  color: #61605E;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
